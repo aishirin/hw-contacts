@@ -43,7 +43,7 @@ const formBtn=document.querySelector(".form__btn")
 formBtn.onclick=()=>{
     nameDiv.textContent=formPhone.value
     phoneDiv.textContent=formUserName.value
-    avatarDiv.style.backgroundImage=formAvatar.value
+    avatarDiv.style.backgroundImage=url("formAvatar.value")
 }
 
 
